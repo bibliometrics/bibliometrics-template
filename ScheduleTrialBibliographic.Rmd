@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "Bibliographic Studies"
 output: html_notebook
 ---
 
@@ -18,7 +18,7 @@ When you save the notebook, an HTML file containing the code and output will be 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
 
-title: "Bibliographic Studies"
+title: ""
 subtitle: "MeSH Terms and Author Key Words In Pathology Articles From Turkey"
 author: "Serdar Balci, MD, Pathologist"
 date: '`r format(Sys.time())`'
