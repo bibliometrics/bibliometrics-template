@@ -23,8 +23,8 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 <!-- title: "Bibliographic Studies" -->
 <!-- author: "Serdar Balci, MD, Pathologist" -->
 <!-- date: '`r format(Sys.time())`' -->
-<!-- output:  -->
-<!--   html_notebook:  -->
+<!-- output: -->
+<!--   html_notebook: -->
 <!--     code_folding: none -->
 <!--     fig_caption: yes -->
 <!--     highlight: kate -->

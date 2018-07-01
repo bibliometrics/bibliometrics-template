@@ -2,7 +2,7 @@ library(rmarkdown)
 library(pander)
 library(rstudioapi)
 # 
-Sys.setenv(RSTUDIO_PANDOC="/Applications/RStudio.app/Contents/MacOS/pandoc"); rmarkdown::render(input = "/Users/serdarbalciold/RepTemplates/BibliographicStudies/ScheduleTrialBibliographic.Rmd", output_format = "html_notebook", output_file = "/Users/serdarbalciold/RepTemplates/BibliographicStudies/SchedulePubMedAnalysis.html", quiet = TRUE)
+Sys.setenv(RSTUDIO_PANDOC="/Applications/RStudio.app/Contents/MacOS/pandoc"); rmarkdown::render(input = "/Users/serdarbalciold/RepTemplates/BibliographicStudies/ScheduleTrialBibliographic.Rmd", output_format = "html_notebook", output_file = "/Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html", quiet = TRUE)
 #
 Sys.sleep(time = 2)
 #
