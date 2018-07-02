@@ -191,7 +191,7 @@ $(document).ready(function () {
 <p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Cmd+Option+I</em>.</p>
 <p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Cmd+Shift+K</em> to preview the HTML file).</p>
 <p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
-<p>subtitle: “MeSH Terms and Author Key Words In Pathology Articles From Turkey” author: “Serdar Balci, MD, Pathologist” date: ‘2018-07-02 18:20:01’ output: html_notebook: code_folding: none fig_caption: yes highlight: kate number_sections: yes theme: cerulean toc: yes toc_float: yes</p>
+<p>subtitle: “MeSH Terms and Author Key Words In Pathology Articles From Turkey” author: “Serdar Balci, MD, Pathologist” date: ‘2018-07-02 18:30:57’ output: html_notebook: code_folding: none fig_caption: yes highlight: kate number_sections: yes theme: cerulean toc: yes toc_float: yes</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjpbIkNvbW1pdE1lc3NhZ2UgPC0gcGFzdGUoXCJ1cGRhdGVkIG9uIFwiLCBTeXMudGltZSgpLCBzZXAgPSBcIlwiKSIsIndkIDwtIGdldHdkKCkiLCJnaXRDb21tYW5kIDwtIHBhc3RlKFwiY2QgXCIsIHdkLCBcIiBcXG4gZ2l0IGFkZCAuIFxcbiBnaXQgY29tbWl0IC0tbWVzc2FnZSAnXCIsIENvbW1pdE1lc3NhZ2UsIFwiJyBcXG4gZ2l0IHB1c2ggb3JpZ2luIG1hc3RlciBcXG5cIiwgc2VwID0gXCJcIikiLCJzeXN0ZW0oY29tbWFuZCA9IGdpdENvbW1hbmQsIGludGVybiA9IFRSVUUpIl19 -->
@@ -200,26 +200,23 @@ wd &lt;- getwd()
 gitCommand &lt;- paste(&quot;cd &quot;, wd, &quot; \n git add . \n git commit --message '&quot;, CommitMessage, &quot;' \n git push origin master \n&quot;, sep = &quot;&quot;)
 system(command = gitCommand, intern = TRUE)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-warning-begin eyJkYXRhIjoiV2FybmluZyBpbiBzeXN0ZW0oY29tbWFuZCA9IGdpdENvbW1hbmQsIGludGVybiA9IFRSVUUpOiAnY2QgL1VzZXJzL3NlcmRhcmJhbGNpb2xkL1JlcFRlbXBsYXRlcy9CaWJsaW9ncmFwaGljU3R1ZGllcyBcbiBnaXQgYWRkIC4gXG4gZ2l0IGNvbW1pdCAtLW1lc3NhZ2UgJ3VwZGF0ZWQgb24gMjAxOC0wNy0wMiAxODoyMDowMScgXG4gZ2l0IHB1c2ggb3JpZ2luIG1hc3RlciBcbicga29tdXR1bnUgY2FsaXN0aXJpcmtlbiAxMjggZHVydW11IG9sdXN0dVxuIn0= -->
+<!-- rnb-warning-begin eyJkYXRhIjoiV2FybmluZyBpbiBzeXN0ZW0oY29tbWFuZCA9IGdpdENvbW1hbmQsIGludGVybiA9IFRSVUUpOiAnY2QgL1VzZXJzL3NlcmRhcmJhbGNpb2xkL1JlcFRlbXBsYXRlcy9CaWJsaW9ncmFwaGljU3R1ZGllcyBcbiBnaXQgYWRkIC4gXG4gZ2l0IGNvbW1pdCAtLW1lc3NhZ2UgJ3VwZGF0ZWQgb24gMjAxOC0wNy0wMiAxODozMDo1NycgXG4gZ2l0IHB1c2ggb3JpZ2luIG1hc3RlciBcbicga29tdXR1bnUgY2FsaXN0aXJpcmtlbiAxMjggZHVydW11IG9sdXN0dVxuIn0= -->
 <pre><code>Warning in system(command = gitCommand, intern = TRUE): 'cd /Users/serdarbalciold/RepTemplates/BibliographicStudies 
  git add . 
- git commit --message 'updated on 2018-07-02 18:20:01' 
+ git commit --message 'updated on 2018-07-02 18:30:57' 
  git push origin master 
 ' komutunu calistirirken 128 durumu olustu</code></pre>
 <!-- rnb-warning-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiW21hc3RlciA0MmIzMTZhXSB1cGRhdGVkIG9uIDIwMTgtMDctMDIgMTg6MjA6MDFcIiAgICAgICAgICAgICAgICAgIFxuWzJdIFwiIDEwIGZpbGVzIGNoYW5nZWQsIDg5IGluc2VydGlvbnMoKyksIDI2IGRlbGV0aW9ucygtKVwiICAgICAgICAgICAgIFxuWzNdIFwiIGNyZWF0ZSBtb2RlIDEwMDY0NCBpbmRleF9maWxlcy9maWd1cmUtaHRtbC91bm5hbWVkLWNodW5rLTEtMS5wbmdcIlxuYXR0cigsXCJzdGF0dXNcIilcblsxXSAxMjhcbiJ9 -->
-<pre><code>[1] &quot;[master 42b316a] updated on 2018-07-02 18:20:01&quot;                  
-[2] &quot; 10 files changed, 89 insertions(+), 26 deletions(-)&quot;             
-[3] &quot; create mode 100644 index_files/figure-html/unnamed-chunk-1-1.png&quot;
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiW21hc3RlciA3MTI0MGYzXSB1cGRhdGVkIG9uIDIwMTgtMDctMDIgMTg6MzA6NTdcIiAgIFxuWzJdIFwiIDUgZmlsZXMgY2hhbmdlZCwgNjIgaW5zZXJ0aW9ucygrKSwgNiBkZWxldGlvbnMoLSlcIlxuYXR0cigsXCJzdGF0dXNcIilcblsxXSAxMjhcbiJ9 -->
+<pre><code>[1] &quot;[master 71240f3] updated on 2018-07-02 18:30:57&quot;   
+[2] &quot; 5 files changed, 62 insertions(+), 6 deletions(-)&quot;
 attr(,&quot;status&quot;)
 [1] 128</code></pre>
 <!-- rnb-output-end -->
-<!-- rnb-output-begin eyJkYXRhIjpbIlttYXN0ZXIgNDJiMzE2YV0gdXBkYXRlZCBvbiAyMDE4LTA3LTAyIDE4OjIwOjAxXG4iLCIgMTAgZmlsZXMgY2hhbmdlZCwgODkgaW5zZXJ0aW9ucygrKSwgMjYgZGVsZXRpb25zKC0pXG4iLCIgY3JlYXRlIG1vZGUgMTAwNjQ0IGluZGV4X2ZpbGVzL2ZpZ3VyZS1odG1sL3VubmFtZWQtY2h1bmstMS0xLnBuZ1xuIl19 -->
-<pre><code>[master 42b316a] updated on 2018-07-02 18:20:01
+<!-- rnb-output-begin eyJkYXRhIjpbIlttYXN0ZXIgNzEyNDBmM10gdXBkYXRlZCBvbiAyMDE4LTA3LTAyIDE4OjMwOjU3XG4iLCIgNSBmaWxlcyBjaGFuZ2VkLCA2MiBpbnNlcnRpb25zKCspLCA2IGRlbGV0aW9ucygtKVxuIl19 -->
+<pre><code>[master 71240f3] updated on 2018-07-02 18:30:57
 
- 10 files changed, 89 insertions(+), 26 deletions(-)
-
- create mode 100644 index_files/figure-html/unnamed-chunk-1-1.png</code></pre>
+ 5 files changed, 62 insertions(+), 6 deletions(-)</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -354,7 +351,7 @@ attr(,&quot;status&quot;)
 <!-- --- -->
 <!-- # Feedback -->
 <!-- [Serdar Balc<U+FFFD><U+FFFD>, MD, Pathologist](https://github.com/sbalci) would like to hear your feedback: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3 -->
-<!-- This document will be continiously updated and the last update was on 2018-07-02 18:20:02. -->
+<!-- This document will be continiously updated and the last update was on 2018-07-02 18:30:59. -->
 <!-- --- -->
 <!-- # Back to Main Menu -->
 <!-- [Main Page for Bibliographic Analysis](https://sbalci.github.io/pubmed/BibliographicStudies.html) -->
