@@ -7,7 +7,6 @@ a <- c((1 + 2)*33, Sys.time(), "a")
 write(a, "~/RepTemplates/BibliographicStudies/a.txt")
 
 
-
 # 
 Sys.setenv(RSTUDIO_PANDOC="/Applications/RStudio.app/Contents/MacOS/pandoc"); rmarkdown::render(input = "~/RepTemplates/BibliographicStudies/ScheduleTrialBibliographic.Rmd", output_format = "html_notebook", output_file = "~/RepTemplates/BibliographicStudies/index.html")
                                                                                                 # , quiet = TRUE)
