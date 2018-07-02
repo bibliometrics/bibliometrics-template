@@ -1,34 +1,52 @@
 Zorunlu paket y"ukleniyor: rmarkdown
+Zorunlu paket y"ukleniyor: rmarkdown
+Zorunlu paket y"ukleniyor: rstudioapi
 Zorunlu paket y"ukleniyor: rstudioapi
 
 
 processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
+
+
+processing file: ScheduleTrialBibliographic.Rmd
+  |                                                                         |                                                                         |                                                                 |   0%  |                                                                 |   0%  |                                                                         |                                                                         |......................                                           |  33%  |......................                                           |  33%
+
   ordinary text without R code
 
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
+  ordinary text without R code
+
+  |                                                                         |                                                                         |...........................................                      |  67%
+  |...........................................                      |  67%
+label: unnamed-chunk-1label: unnamed-chunk-1
+
+  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
   |                                                                         |.................................................................| 100%
    inline R code fragments
 
 
+
 output file: ScheduleTrialBibliographic.knit.md
 
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpVWD2Gi/rmarkdown-str7390519dd4e8.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpVWD2Gi/file73905104f534.html --variable code_menu=1 --variable kable-scroll=1 
+output file: ScheduleTrialBibliographic.knit.md
+
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpOptwUq/rmarkdown-str8db36e1e6f8e.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpOptwUq/file8db3102e0c1d.html --variable code_menu=1 --variable kable-scroll=1 
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpJup4Et/rmarkdown-str8db26ad8b07d.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpJup4Et/file8db2382b1558.html --variable code_menu=1 --variable kable-scroll=1 
 
 Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
+
+Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
+Warning messages:
+1: In dir.create(dirname(name), recursive = TRUE) :
+  '/Users/serdarbalciold/RepTemplates/BibliographicStudies/index_files/figure-html' zaten mevcut
+2: In file.rename(output_file, nb_output_file) :
+  '/Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html' dosyasi '/Users/serdarbalciold/RepTemplates/BibliographicStudies/index.nb.html' olarak yeniden adlandirilamiyor, sebep: 'No such file or directory'
 fatal: Not a git repository (or any of the parent directories): .git
 fatal: Not a git repository (or any of the parent directories): .git
 fatal: Not a git repository (or any of the parent directories): .git
-character(0)
-attr(,"status")
-[1] 128
-Warning message:
-In system(command = gitCommand, intern = TRUE) : 'cd /Users/serdarbalciold 
- git add . 
- git commit --message 'updated on 2018-07-02 17:59:01' 
- git push origin master 
-' komutunu calistirirken 128 durumu olustu
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
 Zorunlu paket y"ukleniyor: rmarkdown
 Zorunlu paket y"ukleniyor: rstudioapi
 
@@ -45,225 +63,7 @@ label: unnamed-chunk-1
 
 output file: ScheduleTrialBibliographic.knit.md
 
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmpgz0mKh/rmarkdown-str741b57ba8b56.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmpgz0mKh/file741b1811e819.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-character(0)
-attr(,"status")
-[1] 128
-Warning message:
-In system(command = gitCommand, intern = TRUE) : 'cd /Users/serdarbalciold 
- git add . 
- git commit --message 'updated on 2018-07-02 18:00:03' 
- git push origin master 
-' komutunu calistirirken 128 durumu olustu
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpPqjJn6/rmarkdown-str751c743e4ee2.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpPqjJn6/file751c26ad130d.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-character(0)
-attr(,"status")
-[1] 128
-Warning message:
-In system(command = gitCommand, intern = TRUE) : 'cd /Users/serdarbalciold 
- git add . 
- git commit --message 'updated on 2018-07-02 18:02:01' 
- git push origin master 
-' komutunu calistirirken 128 durumu olustu
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpKzvHh6/rmarkdown-str7a1332c144ce.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpKzvHh6/file7a132e8c4a6a.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-character(0)
-attr(,"status")
-[1] 128
-Warning message:
-In system(command = gitCommand, intern = TRUE) : 'cd /Users/serdarbalciold 
- git add . 
- git commit --message 'updated on 2018-07-02 18:15:01' 
- git push origin master 
-' komutunu calistirirken 128 durumu olustu
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |.............                                                    |  20%
-  ordinary text without R code
-
-  |                                                                         |..........................                                       |  40%
-label: unnamed-chunk-1
-  |                                                                         |.......................................                          |  60%
-   inline R code fragments
-
-  |                                                                         |....................................................             |  80%
-label: unnamed-chunk-2
-fatal: could not read Username for 'https://github.com': Device not configured
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpPNAKUj/rmarkdown-str7bfe73ff59a6.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpPNAKUj/file7bfe156dcc9.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |.............                                                    |  20%
-  ordinary text without R code
-
-  |                                                                         |..........................                                       |  40%
-label: unnamed-chunk-1
-  |                                                                         |.......................................                          |  60%
-   inline R code fragments
-
-  |                                                                         |....................................................             |  80%
-label: unnamed-chunk-2
-fatal: could not read Username for 'https://github.com': Device not configured
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmpnxahmb/rmarkdown-str7d1c6c9c3e09.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmpnxahmb/file7d1c5acf894.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |.............                                                    |  20%
-  ordinary text without R code
-
-  |                                                                         |..........................                                       |  40%
-label: unnamed-chunk-1
-  |                                                                         |.......................................                          |  60%
-   inline R code fragments
-
-  |                                                                         |....................................................             |  80%
-label: unnamed-chunk-2
-fatal: could not read Username for 'https://github.com': Device not configured
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpuGgOfU/rmarkdown-str7f8764cb43c8.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpuGgOfU/file7f875ccf332a.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |.............                                                    |  20%
-  ordinary text without R code
-
-  |                                                                         |..........................                                       |  40%
-label: unnamed-chunk-1
-  |                                                                         |.......................................                          |  60%
-   inline R code fragments
-
-  |                                                                         |....................................................             |  80%
-label: unnamed-chunk-2
-fatal: could not read Username for 'https://github.com': Device not configured
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpY3gtyz/rmarkdown-str80a2495e4e5d.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpY3gtyz/file80a24e6ae14c.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |.............                                                    |  20%
-  ordinary text without R code
-
-  |                                                                         |..........................                                       |  40%
-label: unnamed-chunk-1
-  |                                                                         |.......................................                          |  60%
-   inline R code fragments
-
-  |                                                                         |....................................................             |  80%
-label: unnamed-chunk-2
-fatal: could not read Username for 'https://github.com': Device not configured
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpeSRZa0/rmarkdown-str82615a4f6bf4.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpeSRZa0/file826114388e7e.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmpyt4V8R/rmarkdown-str86e113fa92d3.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmpyt4V8R/file86e127bd64e4.html --variable code_menu=1 --variable kable-scroll=1 
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpU4RUlG/rmarkdown-str902d43bbd1dd.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpU4RUlG/file902d5fcf26e8.html --variable code_menu=1 --variable kable-scroll=1 
 
 Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
 fatal: Not a git repository (or any of the parent directories): .git
@@ -285,51 +85,7 @@ label: unnamed-chunk-1
 
 output file: ScheduleTrialBibliographic.knit.md
 
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmp4k4akD/rmarkdown-str877447e0fe3a.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmp4k4akD/file8774452b6b4.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpmfYF4i/rmarkdown-str886d79073811.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpmfYF4i/file886d48f2222a.html --variable code_menu=1 --variable kable-scroll=1 
-
-Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-Zorunlu paket y"ukleniyor: rmarkdown
-Zorunlu paket y"ukleniyor: rstudioapi
-
-
-processing file: ScheduleTrialBibliographic.Rmd
-  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
-  ordinary text without R code
-
-  |                                                                         |...........................................                      |  67%
-label: unnamed-chunk-1
-  |                                                                         |.................................................................| 100%
-   inline R code fragments
-
-
-output file: ScheduleTrialBibliographic.knit.md
-
-/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpzOmcWt/rmarkdown-str8aa8496c9d0a.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpzOmcWt/file8aa879ba212e.html --variable code_menu=1 --variable kable-scroll=1 
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmp1W3Vfy/rmarkdown-str93983fddcf56.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmp1W3Vfy/file93987b5737db.html --variable code_menu=1 --variable kable-scroll=1 
 
 Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
 fatal: Not a git repository (or any of the parent directories): .git
