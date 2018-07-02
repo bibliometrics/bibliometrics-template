@@ -18,11 +18,9 @@ write(b, "~/RepTemplates/BibliographicStudies/b.txt")
 # Sys.sleep(time = 2)
 #
 CommitMessage <- paste("updated on ", Sys.time(), sep = "")
-gitCommand <- paste("cd ~/RepTemplates/BibliographicStudies/ \n git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
-#
+wd <- getwd()
+gitCommand <- paste("cd ", wd, " \n git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
 system(command = gitCommand, intern = TRUE)
-
-
 # CommitMessage <- paste("updated on ", Sys.time(), sep = "")
 # gitCommand <- paste("git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
 # cd /Users/serdarbalciold/RepTemplates/BibliographicStudies/ \n
