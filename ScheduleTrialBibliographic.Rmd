@@ -34,6 +34,16 @@ output:
 
 
 
+```{r}
+CommitMessage <- paste("updated on ", Sys.time(), sep = "")
+wd <- getwd()
+gitCommand <- paste("cd ", wd, " \n git add . \n git commit --message '", CommitMessage, "' \n git push origin master \n", sep = "")
+system(command = gitCommand, intern = TRUE)
+```
+
+
+
+
 <!-- ```{r} -->
 <!-- knitr::opts_chunk$set(message = FALSE, warning=FALSE, tidy = TRUE, error = TRUE) -->
 <!-- ``` -->
