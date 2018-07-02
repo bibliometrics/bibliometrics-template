@@ -1162,3 +1162,565 @@ Untracked files:
 nothing added to commit but untracked files present
 error: src refspec master does not match any.
 error: failed to push some refs to 'origin'
+Zorunlu paket y"ukleniyor: rmarkdown
+Zorunlu paket y"ukleniyor: rstudioapi
+
+
+processing file: ScheduleTrialBibliographic.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: unnamed-chunk-1
+  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: ScheduleTrialBibliographic.knit.md
+
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/RtmpoalB9N/rmarkdown-stra6cd63e3fbb8.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/RtmpoalB9N/filea6cdca32044.html --variable code_menu=1 --variable kable-scroll=1 
+
+Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
+error: open(".rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/nokogiri-1.8.1/ports/archives/libxml2-2.9.5.tar.gz"): Permission denied
+error: unable to index file .rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/nokogiri-1.8.1/ports/archives/libxml2-2.9.5.tar.gz
+fatal: adding files failed
+On branch master
+
+Initial commit
+
+Untracked files:
+	.CFUserTextEncoding
+	.GoPanda2/
+	.JASP/
+	.JGREditorprefsrc
+	.JGRprefsrc
+	.R/
+	.RData
+	.RapidMiner/
+	.RapidMiner5/
+	.Rapp.history
+	.Rcache/
+	.Renviron
+	.Rhistory
+	.Rprofile
+	.Seagate/
+	.Trash/
+	.Xauthority
+	.adobe/
+	.anaconda/
+	.astropy/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda.bak
+	.bash_profile-anaconda3.bak
+	.bash_profile.macports-saved_2018-01-02_at_21:25:42
+	.bash_sessions/
+	.bashrc
+	.bundle/
+	.cache/
+	.citespace/
+	.conda/
+	.condarc
+	.config/
+	.copasi/
+	.cups/
+	.dbus-keyrings/
+	.docker/
+	.dropbox/
+	.dtt/
+	.fontconfig/
+	.gem/
+	.gitbook/
+	.gitconfig
+	.glue/
+	.internet_chess_club/
+	.ipynb_checkpoints/
+	.ipython/
+	.jhbuildrc
+	.jhbuildrc-cfw-10.4
+	.jhbuildrc-cfw-10.4u
+	.jhbuildrc-custom
+	.jhbuildrc-fw-10.4
+	.jhbuildrc-fw-10.4-test
+	.jupyter/
+	.kindle/
+	.local/
+	.login
+	.mailcap
+	.matplotlib/
+	.mime.types
+	.nSolver4/
+	.npm/
+	.octave_hist
+	.oracle_jre_usage/
+	.pgadmin/
+	.plotly/
+	.profile
+	.pylint.d/
+	.python_history
+	.razorsql/
+	.rbenv/
+	.revman5/
+	.rkward/
+	.rnd
+	.rs/
+	.rstudio-desktop/
+	.rtweet_token.rds
+	.rtweet_token1.rds
+	.scidvspc/
+	.serverauth.10805
+	.serverauth.16123
+	.serverauth.1627
+	.serverauth.551
+	.serverauth.763
+	.spyder-py3/
+	.sqlanywhere12/
+	.ssh/
+	.subversion/
+	.uki/
+	.viminfo
+	.vscode/
+	.xdvirc
+	.yarnrc
+	AT.postflight.75568
+	Applications/
+	DTTexceptions.txt
+	DataCamp.py
+	DataCamp.sql
+	DataIncubatorChallange/
+	DataIncubatorChallange2/
+	DataMiningFox
+	"DataSet1 kopyas\304\261.sav"
+	DataSet1.sav
+	Desktop/
+	Documents/
+	Downloads/
+	DriveAutoScriptOutput/
+	Dropbox/
+	EDT256.R
+	GABAHip.R
+	GitBook/
+	Google Drive/
+	IBM_SPSS_Statistics_20_InstallLog.log
+	ICPN Consensus Draft/
+	LTP.py
+	Lesson-05/
+	Lesson-06/
+	Lesson-07/
+	Lesson-08/
+	Library/
+	MDL307 - Data.xlsx
+	"Masa\303\274st\303\274 armas\304\261"
+	Movies/
+	Music/
+	NGS_publications_per_journal.txt
+	NGS_publications_per_year.txt
+	PancreasTCGA/
+	Physician_Compare/
+	Pictures/
+	PlayOnMac's virtual drives
+	PycharmProjects/
+	QuPath/
+	R-Program-Env-1-2.R
+	R-Program-Env-1-swirl-9.R
+	R-for-SAS-and-SPSS-Users-Files-1st-Edition/
+	R-for-SAS-and-SPSS-Users-Files-2nd-Edition/
+	R-for-Stata_Users-Files-1st-Edition/
+	RCourseraClass/
+	RMarkdown_bookdown.Rmd
+	RMarkdown_bookdown.html
+	RepTemplates/
+	RevMan tutorial/
+	RforDataScience.R
+	Rprof.out
+	Sites/
+	Source/
+	StatisticalInference1-swirl.R
+	StatisticalInference1.R
+	StuffIt/
+	SurvivalAnalysis.R
+	SurvivalAnalysisR.R
+	Syntax1.sps
+	Untitled-1.R
+	Untitled-figure/
+	Untitled.Rhtml
+	Untitled.Rmd
+	Untitled.Rpres
+	Untitled.html
+	Untitled.ipynb
+	Untitled.md
+	Untitled.nb.html
+	Untitled.txt
+	Untitled1.ipynb
+	Untitled11.Rmd
+	Untitled11.nb.html
+	Untitled2.R
+	Untitled2.ipynb
+	Untitled3.ipynb
+	Untitled4.ipynb
+	VOSdenemeDOI.txt
+	VirtualBox VMs/
+	a.txt
+	ampulla-multivariate/
+	authors.txt
+	bin/
+	cards.R
+	chicago.rds
+	citespace/
+	clinicaltrials.txt
+	clt_and_t-distribution.Rmd
+	dashtutorial/
+	data.r
+	data/
+	deneme.Rmd
+	deneme.csv
+	deneme.html
+	denemeampulla.por
+	diet_data.zip
+	diet_data/
+	duplication.r
+	edirect/
+	femaleControlsPopulation.csv
+	femaleMiceWeights.csv
+	grid.r
+	harvard1.R
+	highr.html
+	highr.txt
+	history.Rhistory
+	ipek-smear/
+	kesitsayisi/
+	knime-workspace/
+	layers.r
+	makenames.R
+	mastery.r
+	mdl258-new/
+	myquery.txt
+	nltk_data/
+	notebook-mod2.r
+	notebook.ipynb
+	orange3-text/
+	part1-2.txt
+	periodic-table-data.csv
+	pmids.csv
+	polishing.r
+	position.r
+	preperationFiles/
+	pubmed_abstracts.txt
+	pubmed_abstracts.zip
+	pubmed_medline.txt
+	pubmed_medline.zip
+	pubmed_result.txt
+	qplot.r
+	readonly/
+	renamed.xlsx
+	rodeo.log
+	rubyinstaller/
+	scales.r
+	searchstring.txt
+	serdar-balci-scholar.html
+	shiny-deneme.R
+	specialname.csv
+	syntax.txt
+	syntax.txt.sps
+	syntax2.txt
+	tangram.R
+	tangram1.html
+	tangram_lancet.html
+	tangram_nejm.html
+	tanigr_ECC.xlsx
+	tanigr_EndoservikalKuretaj.xlsx
+	testfile.txt
+	the-grammar.r
+	thesaurus_authors.txt
+	tmp-jhbuild-revision
+	toolbox.r
+	urbanpop.xlsx
+	user/
+	wine_local.RData
+	zika.xml
+
+nothing added to commit but untracked files present
+error: src refspec master does not match any.
+error: failed to push some refs to 'origin'
+Zorunlu paket y"ukleniyor: rmarkdown
+Zorunlu paket y"ukleniyor: rstudioapi
+
+
+processing file: ScheduleTrialBibliographic.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: unnamed-chunk-1
+  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: ScheduleTrialBibliographic.knit.md
+
+/Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS ScheduleTrialBibliographic.utf8.md --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/serdarbalciold/RepTemplates/BibliographicStudies/index.html --smart --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable 'theme:bootstrap' --include-in-header /tmp/Rtmp2ejeLU/rmarkdown-stra9024799f6a.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable code_folding=show --variable source_embed=ScheduleTrialBibliographic.Rmd --include-after-body /tmp/Rtmp2ejeLU/filea9024cd0ea71.html --variable code_menu=1 --variable kable-scroll=1 
+
+Output created: ~/RepTemplates/BibliographicStudies/index.nb.html
+error: open(".rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/nokogiri-1.8.1/ports/archives/libxml2-2.9.5.tar.gz"): Permission denied
+error: unable to index file .rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/nokogiri-1.8.1/ports/archives/libxml2-2.9.5.tar.gz
+fatal: adding files failed
+On branch master
+
+Initial commit
+
+Untracked files:
+	.CFUserTextEncoding
+	.GoPanda2/
+	.JASP/
+	.JGREditorprefsrc
+	.JGRprefsrc
+	.R/
+	.RData
+	.RapidMiner/
+	.RapidMiner5/
+	.Rapp.history
+	.Rcache/
+	.Renviron
+	.Rhistory
+	.Rprofile
+	.Seagate/
+	.Trash/
+	.Xauthority
+	.adobe/
+	.anaconda/
+	.astropy/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda.bak
+	.bash_profile-anaconda3.bak
+	.bash_profile.macports-saved_2018-01-02_at_21:25:42
+	.bash_sessions/
+	.bashrc
+	.bundle/
+	.cache/
+	.citespace/
+	.conda/
+	.condarc
+	.config/
+	.copasi/
+	.cups/
+	.dbus-keyrings/
+	.docker/
+	.dropbox/
+	.dtt/
+	.fontconfig/
+	.gem/
+	.gitbook/
+	.gitconfig
+	.glue/
+	.internet_chess_club/
+	.ipynb_checkpoints/
+	.ipython/
+	.jhbuildrc
+	.jhbuildrc-cfw-10.4
+	.jhbuildrc-cfw-10.4u
+	.jhbuildrc-custom
+	.jhbuildrc-fw-10.4
+	.jhbuildrc-fw-10.4-test
+	.jupyter/
+	.kindle/
+	.local/
+	.login
+	.mailcap
+	.matplotlib/
+	.mime.types
+	.nSolver4/
+	.npm/
+	.octave_hist
+	.oracle_jre_usage/
+	.pgadmin/
+	.plotly/
+	.profile
+	.pylint.d/
+	.python_history
+	.razorsql/
+	.rbenv/
+	.revman5/
+	.rkward/
+	.rnd
+	.rs/
+	.rstudio-desktop/
+	.rtweet_token.rds
+	.rtweet_token1.rds
+	.scidvspc/
+	.serverauth.10805
+	.serverauth.16123
+	.serverauth.1627
+	.serverauth.551
+	.serverauth.763
+	.spyder-py3/
+	.sqlanywhere12/
+	.ssh/
+	.subversion/
+	.uki/
+	.viminfo
+	.vscode/
+	.xdvirc
+	.yarnrc
+	AT.postflight.75568
+	Applications/
+	DTTexceptions.txt
+	DataCamp.py
+	DataCamp.sql
+	DataIncubatorChallange/
+	DataIncubatorChallange2/
+	DataMiningFox
+	"DataSet1 kopyas\304\261.sav"
+	DataSet1.sav
+	Desktop/
+	Documents/
+	Downloads/
+	DriveAutoScriptOutput/
+	Dropbox/
+	EDT256.R
+	GABAHip.R
+	GitBook/
+	Google Drive/
+	IBM_SPSS_Statistics_20_InstallLog.log
+	ICPN Consensus Draft/
+	LTP.py
+	Lesson-05/
+	Lesson-06/
+	Lesson-07/
+	Lesson-08/
+	Library/
+	MDL307 - Data.xlsx
+	"Masa\303\274st\303\274 armas\304\261"
+	Movies/
+	Music/
+	NGS_publications_per_journal.txt
+	NGS_publications_per_year.txt
+	PancreasTCGA/
+	Physician_Compare/
+	Pictures/
+	PlayOnMac's virtual drives
+	PycharmProjects/
+	QuPath/
+	R-Program-Env-1-2.R
+	R-Program-Env-1-swirl-9.R
+	R-for-SAS-and-SPSS-Users-Files-1st-Edition/
+	R-for-SAS-and-SPSS-Users-Files-2nd-Edition/
+	R-for-Stata_Users-Files-1st-Edition/
+	RCourseraClass/
+	RMarkdown_bookdown.Rmd
+	RMarkdown_bookdown.html
+	RepTemplates/
+	RevMan tutorial/
+	RforDataScience.R
+	Rprof.out
+	Sites/
+	Source/
+	StatisticalInference1-swirl.R
+	StatisticalInference1.R
+	StuffIt/
+	SurvivalAnalysis.R
+	SurvivalAnalysisR.R
+	Syntax1.sps
+	Untitled-1.R
+	Untitled-figure/
+	Untitled.Rhtml
+	Untitled.Rmd
+	Untitled.Rpres
+	Untitled.html
+	Untitled.ipynb
+	Untitled.md
+	Untitled.nb.html
+	Untitled.txt
+	Untitled1.ipynb
+	Untitled11.Rmd
+	Untitled11.nb.html
+	Untitled2.R
+	Untitled2.ipynb
+	Untitled3.ipynb
+	Untitled4.ipynb
+	VOSdenemeDOI.txt
+	VirtualBox VMs/
+	a.txt
+	ampulla-multivariate/
+	authors.txt
+	bin/
+	cards.R
+	chicago.rds
+	citespace/
+	clinicaltrials.txt
+	clt_and_t-distribution.Rmd
+	dashtutorial/
+	data.r
+	data/
+	deneme.Rmd
+	deneme.csv
+	deneme.html
+	denemeampulla.por
+	diet_data.zip
+	diet_data/
+	duplication.r
+	edirect/
+	femaleControlsPopulation.csv
+	femaleMiceWeights.csv
+	grid.r
+	harvard1.R
+	highr.html
+	highr.txt
+	history.Rhistory
+	ipek-smear/
+	kesitsayisi/
+	knime-workspace/
+	layers.r
+	makenames.R
+	mastery.r
+	mdl258-new/
+	myquery.txt
+	nltk_data/
+	notebook-mod2.r
+	notebook.ipynb
+	orange3-text/
+	part1-2.txt
+	periodic-table-data.csv
+	pmids.csv
+	polishing.r
+	position.r
+	preperationFiles/
+	pubmed_abstracts.txt
+	pubmed_abstracts.zip
+	pubmed_medline.txt
+	pubmed_medline.zip
+	pubmed_result.txt
+	qplot.r
+	readonly/
+	renamed.xlsx
+	rodeo.log
+	rubyinstaller/
+	scales.r
+	searchstring.txt
+	serdar-balci-scholar.html
+	shiny-deneme.R
+	specialname.csv
+	syntax.txt
+	syntax.txt.sps
+	syntax2.txt
+	tangram.R
+	tangram1.html
+	tangram_lancet.html
+	tangram_nejm.html
+	tanigr_ECC.xlsx
+	tanigr_EndoservikalKuretaj.xlsx
+	testfile.txt
+	the-grammar.r
+	thesaurus_authors.txt
+	tmp-jhbuild-revision
+	toolbox.r
+	urbanpop.xlsx
+	user/
+	wine_local.RData
+	zika.xml
+
+nothing added to commit but untracked files present
+error: src refspec master does not match any.
+error: failed to push some refs to 'origin'
