@@ -108,21 +108,21 @@ output:
 
 <!-- Articles are downloaded as `xml`. -->
 
-<!-- ```{r Search PubMed, write data as xml} -->
-<!-- # myTerm <- rstudioapi::terminalCreate(show = FALSE) -->
-<!-- # rstudioapi::terminalSend( -->
-<!-- #     myTerm, -->
-<!-- #     "esearch -db pubmed -query \"$(cat /Users/serdarbalciold/RepTemplates/pubmed/data/searchformula.txt)\" -datetype PDAT -mindate 1900 -maxdate 3000 | efetch -format xml > /Users/serdarbalciold/RepTemplates/pubmed/data/PathologyTurkey.xml \n" -->
-<!-- # ) -->
-<!-- # Sys.sleep(1) -->
-<!-- # repeat { -->
-<!-- #     Sys.sleep(0.1) -->
-<!-- #     if (rstudioapi::terminalBusy(myTerm) == FALSE) { -->
-<!-- #         print("Code Executed") -->
-<!-- #         break -->
-<!-- #     } -->
-<!-- # } -->
-<!-- ``` -->
+```{r Search PubMed, write data as xml}
+myTerm <- rstudioapi::terminalCreate(show = FALSE)
+rstudioapi::terminalSend(
+    myTerm,
+    "esearch -db pubmed -query \"$(cat /Users/serdarbalciold/RepTemplates/pubmed/data/searchformula.txt)\" -datetype PDAT -mindate 1900 -maxdate 3000 | efetch -format xml > /Users/serdarbalciold/RepTemplates/pubmed/data/PathologyTurkey.xml \n"
+)
+Sys.sleep(1)
+repeat {
+    Sys.sleep(0.1)
+    if (rstudioapi::terminalBusy(myTerm) == FALSE) {
+        print("Code Executed")
+        break
+    }
+}
+```
 
 
 <!-- MeSH terms are extracted from xml. [Common terms](https://www.nlm.nih.gov/bsd/indexing/training/CHK_010.html) are excluded and [major topics](https://www.nlm.nih.gov/bsd/disted/meshtutorial/principlesofmedlinesubjectindexing/majortopics/) are selected. -->
